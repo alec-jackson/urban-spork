@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Home Page Exmaple</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" media="screen" href="css/jatasStyle.css" />
+	<link rel="shortcut icon" href="jatas.org/images/JTIconWithBackground.png" />
+	<link rel="icon" href="images/JTIconWithBackground.png" />
+</head>
+
+<!--Navigation bar-->
+<div id="nav-placeholder"></div>
+
+<div id="nav" onclick="navExpand()">
+    <nav>
+        <ul>
+            <li>
+                <a href="homepage.html" class="taskimage">
+                    <img src="images/JTIconNoBackground.png" alt="jatas icon"></img>
+                </a>
+            </li>
+            <a href="homepage.html" class="navlink"><li>Home</li></a>
+            <a href="article.html" class="navlink"><li>article</li></a>
+            <a href="description.html" class="navlink"><li>description</li></a>
+            <a href="twocolumns.html" class="navlink"><li>columns</li></a>
+        </ul>
+    </nav>
+</div>
+
+<!--<script>
+	$(function () { $("#nav-placeholder").load("/nav.html"); });
+</script> -->
+<!--end of Navigation bar-->
+
+<div id="wrapper">
+	<header>
+		<h1>Title</h1>
+	</header>
+	<div>
+		<body>
+			<div class="clearfix">
+				<a href="alec.html">
+					<div class="overlayGroup">
+						<img src="images/backgrounds/CapeHorn.jpeg" class="background" id="leftImage"></img>
+						<div class="imageoverlay">
+							<p class="overlaytext">link1</p>
+						</div>
+					</div>
+				</a>
+				<a href="ryan.html">
+					<div class="overlayGroup">
+						<img src="images/backgrounds/CapeHorn2.jpeg" class="background" id="rightImage"></img>
+						<div class="imageoverlay">
+							<p class="overlaytext">link2</p>
+						</div>
+					</div>
+				</a>
+				<a href="coolStuff.html">
+					<div class="overlayGroupBanner">
+						<img src="images/backgrounds/Molly2.jpeg" class="background" id="landingpageimage">
+						<div class="imageoverlay">
+							<p class="overlaytext">link3</p>
+						</div>
+					</div>
+				</a>
+			</div>
+		</body>
+	</div>
+</div>
+
+<script src="javascript/nav.js"></script>
+
+<footer>
+	<a href="homepage.html" style="color:white">Home</a>
+	<br><br>
+	Copyright&copy;&nbsp; JATAS
+	<script>
+		var date = document.lastModified; document.write(date);
+	</script>
+</footer>
+
+</html>
