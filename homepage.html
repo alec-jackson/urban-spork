@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<title>Home Page Exmaple</title>
+	<title>JSP | Home Page</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" media="screen" href="css/jatasStyle.css" />
@@ -14,54 +14,65 @@
 <div id="nav-placeholder"></div>
 
 <div id="nav" onclick="navExpand()">
-    <nav>
-        <ul>
-            <li>
-                <a href="homepage.html" class="taskimage">
-                    <img src="images/JTIconNoBackground.png" alt="jatas icon"></img>
-                </a>
-            </li>
-            <a href="homepage.html" class="navlink"><li>Home</li></a>
-            <a href="article.html" class="navlink"><li>article</li></a>
-            <a href="description.html" class="navlink"><li>description</li></a>
-            <a href="twocolumns.html" class="navlink"><li>columns</li></a>
-        </ul>
-    </nav>
+	<nav>
+		<ul>
+			<li>
+				<a href="homepage.html" class="taskimage">
+					<img src="images/JTIconNoBackground.png" alt="jatas icon"></img>
+				</a>
+			</li>
+			<a href="homepage.html" class="navlink">
+				<li>Home</li>
+			</a>
+			<a href="article.html" class="navlink">
+				<li>Article</li>
+			</a>
+			<a href="description.html" class="navlink">
+				<li>Description</li>
+			</a>
+			<a href="twocolumns.html" class="navlink">
+				<li>Columns</li>
+			</a>
+		</ul>
+	</nav>
 </div>
 
-<!--<script>
+<!-- This portion does not work when viewed locally, see nav.html for more information.
+<script>
 	$(function () { $("#nav-placeholder").load("/nav.html"); });
 </script> -->
-<!--end of Navigation bar-->
+
+<!--end of Navigation bar -->
 
 <div id="wrapper">
 	<header>
 		<h1>Title</h1>
 	</header>
 	<div>
+
 		<body>
 			<div class="clearfix">
-				<a href="alec.html">
+				<a href="article.html">
 					<div class="overlayGroup">
 						<img src="images/backgrounds/CapeHorn.jpeg" class="background" id="leftImage"></img>
 						<div class="imageoverlay">
-							<p class="overlaytext">link1</p>
+							<p class="overlaytext">Article</p>
 						</div>
 					</div>
 				</a>
-				<a href="ryan.html">
+				<a href="description.html">
 					<div class="overlayGroup">
 						<img src="images/backgrounds/CapeHorn2.jpeg" class="background" id="rightImage"></img>
 						<div class="imageoverlay">
-							<p class="overlaytext">link2</p>
+							<p class="overlaytext">Description</p>
 						</div>
 					</div>
 				</a>
-				<a href="coolStuff.html">
+				<a href="twocolumns.html">
 					<div class="overlayGroupBanner">
 						<img src="images/backgrounds/Molly2.jpeg" class="background" id="landingpageimage">
 						<div class="imageoverlay">
-							<p class="overlaytext">link3</p>
+							<p class="overlaytext">Columns</p>
 						</div>
 					</div>
 				</a>
